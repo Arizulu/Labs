@@ -7,7 +7,7 @@
 
 int main(void) {
     int n;
-	if (scanf("%d", &n) != 1) {
+	if (scanf("%d ;", &n) != 1) {
 	    printf("Error");
 	    return 1;
 	}
@@ -22,7 +22,7 @@ int main(void) {
 	
 	
 	int x, y;
-	if (scanf("x = %d, y = %d", &x, &y) != 2) {
+	if (scanf("; x = %d, y = %d", &x, &y) != 2) {
 	    printf("Error");
 	    return 1;
 	}
@@ -54,6 +54,3 @@ int main(void) {
 	}
 	return 0;
 }
-	
-    
-
