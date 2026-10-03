@@ -40,6 +40,8 @@ int main(void) {
 	        count++;
 	        arr[i] = y;
 	    }
+	}
+	
 	if (count > 0) {
 	    printf("После:");
 	    for (int i = 0; i < n; i++) {
@@ -48,10 +50,10 @@ int main(void) {
 	    printf("; count %d; first %d; last %d\n", count, first, last);
 	}
 	else {
-	    printf("Массив прежний; Not found; %d\n", count);
+	    printf("Массив прежний; Not found; count 0\n");
 	}
-	}
-	
-    return 0;
+	return 0;
 }
+	
+    
 
