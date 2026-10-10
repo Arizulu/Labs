@@ -29,7 +29,7 @@ int main() {
 	for (int c = 0; c < col; c++) {
 	    int col_sum = 0;
 	    for (int r = 0; r < row; r++) {
-	        col_sum = a[r][c];
+	        col_sum += a[r][c];
 	    }
 	    printf("%d", col_sum);
 	}
