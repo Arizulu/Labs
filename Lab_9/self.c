@@ -31,7 +31,7 @@ int main() {
 	    for (int r = 0; r < row; r++) {
 	        col_sum += a[r][c];
 	    }
-	    printf("%d", col_sum);
+	    printf(" %d", col_sum);
 	}
 	
 	int min_sum = 0;
@@ -55,7 +55,6 @@ int main() {
 	    }
 	}
 	
-	printf("; строка %d; ее сумма %d\n", min_row, min_sum);
+	printf("; строка %d; ее сумма %d\n", min_row + 1, min_sum);
 	return 0;
 }
-
