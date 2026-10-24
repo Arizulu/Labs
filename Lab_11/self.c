@@ -2,7 +2,7 @@
 
 int count_above(const int a[], int n, int limit) {
     int count = 0;
-    for (int i = 0; i < n; i) {
+    for (int i = 0; i < n; i++) {
         if (a[i] > limit) {
             count++;
         }
